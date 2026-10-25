@@ -1,0 +1,70 @@
+{
+  "generatedFrom": "bala-nexus README.md world-map table",
+  "note": "Local paths and remotes for the repositories in the Balamonis new world. bala-nexus references all repos; modifies none. Keep in sync with the world-map table in README.md.",
+  "entity": "balamonis-llc",
+  "repositories": [
+    {
+      "repo": "bsgusa/bala-nexus",
+      "localPath": "~/bala-nexus",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Hub — world map of all Balamonis works, LLCs, ventures, and open threads"
+    },
+    {
+      "repo": "bsgusa/bala-pulse",
+      "localPath": "~/bala-pulse",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Trending intelligence — signal → score → backlog → build"
+    },
+    {
+      "repo": "bsgusa/bala-voice",
+      "localPath": "~/bala-voice",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Public engagement — issues, discussions, open roadmap, response-time promise"
+    },
+    {
+      "repo": "bsgusa/bala-archives",
+      "localPath": "~/bala-archives",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Identity — founder profile, two LLCs, portfolio, public engagement pledge"
+    },
+    {
+      "repo": "bsgusa/bala-weave",
+      "localPath": "~/bala-weave",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Collab & contributions — PR templates, issue templates, good-first-issues"
+    },
+    {
+      "repo": "bsgusa/command-center-bala",
+      "localPath": "~/Command_Center_Bala_Repo",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Nerve center — dashboards, metrics, company + venture registry"
+    },
+    {
+      "repo": "bsgusa/balamonis_group_main",
+      "localPath": "~/Balamonis_Group_Main_Repo",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Shared core — platform contracts, AI Gateway, schema, audit log"
+    },
+    {
+      "repo": "bsgusa/balamonis-media",
+      "localPath": "~/Balamonis_Media_Repo",
+      "branch": "main",
+      "entity": "balamonis-llc",
+      "role": "Media studio — AI-augmented creative production"
+    },
+    {
+      "repo": "bsgusa/AI-Job-Automation",
+      "localPath": "~/AI-Job-Automation",
+      "branch": "main",
+      "entity": "lexora-ai-llc",
+      "role": "Career + legal document automation (Lexora AI LLC, 90-day focus)"
+    }
+  ]
+}
