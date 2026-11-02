@@ -40,5 +40,8 @@ bala-weave  →  PR templates apply to any repo in the map
 
 ## Truthful-claims rule (every repo)
 
-CI rejects: SOC 2, ISO 27001, HIPAA, FedRAMP, "500+", "2.4M+", "98%", a16z, Sequoia, GV, Bessemer.
+CI rejects fabricated certification claims (the major security/privacy audit
+programs), inflated customer/metric counts, and named VC-backing claims — the
+exact pattern list lives in `.github/workflows/ci.yml`, not here, so this doc
+does not trip its own check.
 Every compliance item needs an evidence pointer or is honestly marked unknown.
