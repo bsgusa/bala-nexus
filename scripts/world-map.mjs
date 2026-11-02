@@ -4,7 +4,11 @@
 
 import { readFileSync } from 'node:fs';
 
-const repos = JSON.parse(readFileSync(new URL('./company/repos.json', import.meta.url), 'utf8')).repositories;
+// Resolve from the repo root, not from scripts/: this file lives in scripts/
+// but the data lives at company/repos.json.
+const repos = JSON.parse(
+  readFileSync(new URL('../company/repos.json', import.meta.url), 'utf8'),
+).repositories;
 
 const rows = repos.map((r) => {
   return `| \`${r.repo}\` | ${r.entity} | ${r.role} | Connects to bala-nexus |`;
