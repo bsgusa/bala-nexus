@@ -19,7 +19,7 @@
 
 - [ ] Add per-repo health badge source (exists / dirty / drifted) derived from `company/repos.json`
 - [ ] Add a `docs/CONNECTION_GUIDE.md`: how to navigate from any repo to any other
-- [ ] Wire `bala-nexus` into `command-center-bala` company registry as a referenced repo
+- [x] Wire `bala-nexus` into `command-center-bala` company registry as a referenced repo (2026-11-01, P-001b)
 - [ ] Add GitHub issue template that auto-links to `bala-nexus` world map
 
 ## [LATER] Network effects

@@ -23,7 +23,8 @@
 | `command-center-bala` | Balamonis LLC | Nerve center |
 | `balamonis_group_main` | Balamonis LLC | Shared core |
 | `balamonis-media` | Balamonis LLC | Media studio |
-| `AI-Job-Automation` | Lexora AI LLC | Career + legal doc automation |
+| `company-lexora-legal` | Lexora AI LLC | Legal product surface (lexoraai.space) |
+| `company-lexora-jobs` | Lexora AI LLC | Jobs product surface (lexoraai.org) |
 
 ## Daily workflow
 

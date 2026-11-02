@@ -18,7 +18,8 @@ How to navigate from any Balamonis repo to any other, without touching existing 
 | See ops/metrics | `command-center-bala/` |
 | See shared core | `balamonis_group_main/` |
 | See media studio | `balamonis-media/` |
-| See Lexora product | `AI-Job-Automation/` |
+| See Lexora legal product | `AI-Job-Automation/` (slug: `company-lexora-legal`) |
+| See Lexora jobs product | `company-lexoraai/` (slug: `company-lexora-jobs`) |
 
 ## Repo → repo hops
 

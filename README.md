@@ -42,7 +42,8 @@ Email: `support@balamonis.com` | GitHub: `@bsgusa`
 | `bsgusa/command-center-bala` | Balamonis LLC | Nerve center — dashboards, metrics, company + venture registry | `bala-nexus` |
 | `bsgusa/balamonis_group_main` | Balamonis LLC | Shared core — platform contracts, AI Gateway, schema, audit log | `bala-nexus` |
 | `bsgusa/balamonis-media` | Balamonis LLC | Media studio — AI-augmented creative production | `bala-nexus` |
-| `bsgusa/AI-Job-Automation` | Lexora AI LLC | Career + legal document automation (90-day focus) | `bala-nexus` |
+| `bsgusa/company-lexora-legal` | Lexora AI LLC | Legal product surface (lexoraai.space) — immigration document prep, contract review (90-day focus) | `bala-nexus` |
+| `bsgusa/company-lexora-jobs` | Lexora AI LLC | Jobs product surface (lexoraai.org) — job board, career coaching, certifications | `bala-nexus` |
 
 Existing repos are **not modified** by this repo. `bala-nexus` only references them.
 
@@ -67,10 +68,11 @@ bala-nexus  (the map)
     ├─ bala-archives (who we are ↔ portfolio ↔ pledge)
     └─ bala-weave   (collab ↔ PRs ↔ good-first-issues)
     │
-    ├─ command-center-bala   (ops, metrics, registry)
-    ├─ balamonis_group_main  (shared core, gateway, schema)
-    ├─ balamonis-media       (studio, creative production)
-    └─ AI-Job-Automation     (Lexora AI product surface)
+    ├─ command-center-bala    (ops, metrics, registry)
+    ├─ balamonis_group_main   (shared core, gateway, schema)
+    ├─ balamonis-media        (studio, creative production)
+    ├─ company-lexora-legal   (Lexora legal surface — lexoraai.space)
+    └─ company-lexora-jobs    (Lexora jobs surface — lexoraai.org)
 ```
 
 ---

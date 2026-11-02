@@ -26,3 +26,20 @@
 - Existing repos are referenced only — none were modified.
 - Truthful-claims CI check added (rejects SOC 2 / ISO 27001 / HIPAA / FedRAMP / fabricated metrics).
 - Next: add repo health badge source, docs/CONNECTION_GUIDE.md, wire into command-center-bala registry.
+
+## 2026-11-01 — Lexora repo slugs corrected; wired into Command Center
+
+The 2026-11-01 GitHub cleanup renamed `bsgusa/AI-Job-Automation` → `bsgusa/company-lexora-legal`
+(lexoraai.space) and `bsgusa/company-lexoraai` → `bsgusa/company-lexora-jobs` (lexoraai.org).
+This repo still pointed at the old slug in five places.
+
+- `company/repos.json`: `bsgusa/AI-Job-Automation` → `bsgusa/company-lexora-legal`, and
+  `bsgusa/company-lexora-jobs` added. World map is now **10 repos** (5 bala + 3 Balamonis
+  operating + 2 Lexora product surfaces).
+- `README.md`: world-map table row and connection diagram updated to the two Lexora repos.
+- `CLAUDE.md`, `docs/CONNECTION_GUIDE.md`: old slug replaced; local checkout paths unchanged
+  (`~/AI-Job-Automation`, `~/company-lexoraai` — the directories were not renamed).
+- `bala-nexus` is now referenced in `command-center-bala` `company/repos.json` and
+  `lib/company/registry.ts` (P-001b), along with all four sibling `bala-*` repos and
+  `ai_engineering_tools`.
+- Historical entries above are left as-is; this entry records the correction.
